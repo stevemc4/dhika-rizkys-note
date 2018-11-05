@@ -1,0 +1,21 @@
+<div class="p-8">
+    <h1 class="font-normal text-black">Posts</h1>
+    <ul class="list-reset mt-2">
+    <% posts.forEach((e) => {
+        %>
+        <li class="py-3">
+            <a class="text-grey-darkest no-underline hover:text-black" href="/posts/<%=e.url%>.html">
+                <div>
+                    <span class="font-normal text-2xl block"><%=e.title%></span>
+                    <p class="font-normal mt-2 text-grey-darker">
+                        <%-e.summary%>
+                    </p>
+                </div>
+                
+            </a>
+        </li>
+        <%
+    })
+    %>
+    </ul>
+</div>

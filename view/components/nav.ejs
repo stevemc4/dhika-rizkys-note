@@ -1,0 +1,12 @@
+<nav class="p-8 flex items-center">
+    <span class="font-normal text-lg flex-grow"><%=title%></span>
+    <ul class="list-reset">
+        <li class="float-left mx-2"><a class="text-black no-underline" href="/">Home</a></li>
+        <%if(isBlogEnabled){%>
+            <li class="float-left mx-2"><a class="text-black no-underline" href="/posts.html">Blog</a></li>
+        <%}%>
+        <%additionalPages.forEach((e) => {%>
+            <li class="float-left mx-2"><a class="text-black no-underline" href="/<%=e.url%>"><%=e.name%></a></li>
+        <%})%>
+    </ul>
+</nav>

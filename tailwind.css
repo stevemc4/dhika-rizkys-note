@@ -1,0 +1,10 @@
+@tailwind preflight;
+
+@tailwind utilities;
+
+@tailwind components;
+
+article section p{
+    line-height: 24px;
+    @apply my-4 text-grey-darkest
+}
