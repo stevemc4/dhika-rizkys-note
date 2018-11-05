@@ -8,3 +8,8 @@ article section p{
     line-height: 24px;
     @apply my-4 text-grey-darkest
 }
+
+article a
+{
+    @apply no-underline text-grey-darker font-bold
+}

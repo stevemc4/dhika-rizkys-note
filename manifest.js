@@ -1,13 +1,9 @@
 module.exports = {
-    title: 'Segar Blog',
+    title: 'Dhika Rizky\'s Notes',
     posts: [
         {
             title: 'Hello World',
             file: 'hello'
-        },
-        {
-            title: 'Segar',
-            file: 'segar'
         }
     ],
     additionalPages: 

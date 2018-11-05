@@ -3,7 +3,7 @@
     <ul class="list-reset">
         <li class="float-left mx-2"><a class="text-black no-underline" href="/">Home</a></li>
         <%if(isBlogEnabled){%>
-            <li class="float-left mx-2"><a class="text-black no-underline" href="/posts.html">Blog</a></li>
+            <li class="float-left mx-2"><a class="text-black no-underline" href="/posts.html">Posts</a></li>
         <%}%>
         <%additionalPages.forEach((e) => {%>
             <li class="float-left mx-2"><a class="text-black no-underline" href="/<%=e.url%>"><%=e.name%></a></li>
