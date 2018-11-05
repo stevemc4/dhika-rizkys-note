@@ -70,7 +70,7 @@ function render(path, data)
         template, 
         {
             title: manifest.title, 
-            pageTitle: title, 
+            currentTitle: title, 
             page: process.cwd() + `/view/${path}`,
             isBlogEnabled: manifest.enableBlogPage,
             additionalPages: manifest.additionalPages,
